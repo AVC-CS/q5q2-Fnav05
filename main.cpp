@@ -13,8 +13,15 @@ int main()
     cout << N << " to power number: ";
 
     // TODO
+   int result = 1;
 
+   for (int i = 0; i <= M; i++) {
+    cout << result;
+    if (i < M) {
+        cout << " ";
+        result *= N;
+    }
+   }
     cout << endl;
-
     return 0;
 }
